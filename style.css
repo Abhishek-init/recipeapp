@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #D3CCE3;
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+    font-family: "Merriweather", serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.mobile-container {
+    background-color: #fff;
+    box-shadow: 0 0 10px 2px #3333331a;
+    width: 400px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+header input {
+    background-color: #eee;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1 rem;
+}
+
+header button {
+    background-color: transparent;
+    border: none;
+    color: #eee;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.fav-container {
+    background-color: rgb(255, 198, 255);
+    text-align: center;
+    padding: 1rem;
+}
+
+.fav-meals {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.fav-meals li {
+    width: 85px;
+}
+
+.fav-meals li img {
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 10px 2px #3333331a;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 70px;
+    width: 70px;
+}
