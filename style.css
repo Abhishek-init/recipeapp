@@ -69,7 +69,7 @@ header button {
     border: 2px solid #ffffff;
     box-shadow: 0 0 10px 2px #3333331a;
     border-radius: 50%;
-    object-fit: cover;
-    height: 70px;
-    width: 70px;
+    object-fit: fit;
+    height: 80px;
+    width: 80px;
 }
