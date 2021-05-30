@@ -6,5 +6,3 @@ Will surely make it work in few upcoming days.
 
 for a early quick sneak peek visit 
 https://Abhishek-init.github.io/recipeapp/
-
-Hi this is Rishabh Gupta
